@@ -1,0 +1,115 @@
+
+/* ROBOTO SLAB */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+:root, *  {
+
+  --color-1:#5c008a;
+  --color-2:#8a0065;
+  --color-3:#D53624;
+  --color-4:#300;
+  --color-5:#0900b8;
+  --color-6:#005B44;
+  --color-7:#1a0505;
+  --color-8:#4B4453;
+  --trans-1: rgba(0,0,0,0.1);
+  --trans-2: rgba(0,0,0,0.5);
+  
+  
+  --radius: 7px;
+  --border-1: inset 6px;
+  --border-2: double 4px;
+  --border-3: dotted 3px;
+  
+  --outline-1: dotted 2px;
+  --outline-2: solid 4px;
+  
+  --padding-1: .5%;
+  --margin-1: .5%;
+
+  border: none;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Cute Font', cursive;
+  font-family: 'Gugi', cursive;
+  font-family: 'Hi Melody', cursive;
+  font-family: 'Crimson Pro', serif;
+  font-size: 48px;
+}
+canvas {
+  background: white;
+  background: radial-gradient(#FFF, #DDD);
+  transform-origin: 0 0;
+  width: 100%;
+  height: 100%;
+}
+.ui {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+  width: 120px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.ui p {
+  font-size: 11px;
+  font-weight: 700;
+}
+.ui p.zoom {
+  margin-bottom: 5px;
+}
+.ui p.zoom span {
+  margin-right: 5px;
+  border: solid 1px #777;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.ui p.zoom span.zoomin {
+  padding: 2px 5px;
+}
+.ui p.zoom span.zoomout {
+  padding: 2px 8px;
+}
+.ui p.zoom span:hover {
+  background: black;
+  color: white;
+}
+
+
+
+/* SL buttotns */
+.btn-brandy {
+  border-color: var(--color-2);
+  color: var(--color-3);
+  border: var(--border-1);
+  border-radius: var(--radius);
+  padding: 6px 13px 6px 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--font-4);
+}
+.btn-brandy:hover,
+.btn-sl:focus{
+  border-color: var(--color-3);
+  color: var(--color-2);
+}
+.btn-brandy-cancel {
+  border-color: var(--color-4);
+  color: var(--color-8);
+  border: var(--border-1);
+  border-radius: var(--radius);
+  padding: 6px 13px 6px 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--font-4);
+}
+/*########### HOME ##########*/
