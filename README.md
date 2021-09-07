@@ -1,46 +1,48 @@
-# brandyphilias.club
-Pornosexual Lifestyle Club
-(´baseProjectName´)
-:PROGRES => ZAPLING
+### [brandyphilias.club](https://brandyphilias.club/)
+#### _Pornosexual Lifestyle Club_ ##
+###### DevOpsDrone [QKS 3377](https://youmustobey.com/collective/43377-brandyphilias) 
 
-#development WARNING
-(backwardCompatibility)=gfyOldMan 
+<dl>  
+  <dt>status = 0 ? 100 : 1%  =>  _germling_</dt>
+  <dd>gfyOldMan! ES9 is now! DIY is my PARAPHILIA</dd>
+<dl>
 
- tools.(´worldGarage´)
- -npm
- -gcloud
- -vscode
- -azure
+1 tools(`worldGarage`)
+- npm
+- gcloud
+- vscode
+- azure
+- github
+- cpanel 
  
- libs.(´mainDevelopment´)
-JAVASCRIPT=ES9 +typesript
- -node.js
- -gtag.js
- -discord.js
- -sitemap.js https://github.com/ekalinin/sitemap.js/blob/master/api.md
+1 libs(`mainDevelopment`).ES9
+- [node.js](https://nodejs.org/en/)
+- [gtag.js](https://developers.google.com/analytics/devguides/collection/gtagjs)
+- [discord.js](https://discord.js.org/#/)
+- [sitemap.js](https://github.com/ekalinin/sitemap.js/blob/master/api.md)
 
--html(GET.boilerplate).html5
--FORMS
--buttons
--headder
--menu
--details
--footer
+1 html(`GET.boilerplate`).HTML5
+- FORMS
+- buttons
+- headder
+- menu
+- details
+- footer
 
-css(´floatstyle´).CSS3
--colorScheme
--designStructure
--fontStyle
--baseTheme
--styleTemplate
+1 css(´floatstyle´).CSS3
+- colorScheme
+- designStructure
+- fontStyle
+- baseTheme
+- styleTemplate
         
-MAIN(`openGarage`)
--serverCore
--serverBot [-plural]
--cryptoVault
--constentStore
-
--cookieMonster: [-plural]
+1 MAIN(`openGarage`).club.members
+- [serverCore](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTPS-server/)
+- serverBot _plural_
+- cryptoVault
+- constentStore
+- cookieMonster _plural_
+ 
 DISCORD(`guiuld)
 -clubGuild
 -discrodBot
