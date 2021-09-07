@@ -19,3 +19,14 @@ js(´mainDevelopment´)
 -hostileCookie
 -GoogleAI
 -node.js
+
+serverrCore:    [-ul]
+-clubServer
+-discrodBot
+-cryptoVault
+-constentStore
+-contentFetch
+
+
+
+
