@@ -1,32 +1,55 @@
 # brandyphilias.club
 Pornosexual Lifestyle Club
+(´baseProjectName´)
+:PROGRES => ZAPLING
 
-#development tasks
-hmtl(´baseSite´:WROK IN PROGRES)
+#development WARNING
+(backwardCompatibility)=gfyOldMan 
 
--HTML -FORMS
-    -buttons
-    -headder
-    -menu
-    -sitemap.xml
+ tools.(´worldGarage´)
+ -npm
+ -gcloud
+ -vscode
+ -azure
+ 
+ libs.(´mainDevelopment´)
+JAVASCRIPT=ES9 +typesript
+ -node.js
+ -gtag.js
+ -discord.js
+ -sitemap.js
 
-css(´starterStyle´:none+mustDesign)
-style: -template
-        -color scheme
-        -baseTheme
-js(´mainDevelopment´)
--gtag.js
--hostileCookie
--GoogleAI
--node.js
+-html(GET.boilerplate).html5
+-FORMS
+-buttons
+-headder
+-menu
+-details
+-footer
 
-serverrCore:    [-ul]
--clubServer
--discrodBot
+css(´floatstyle´).CSS3
+-colorScheme
+-designStructure
+-fontStyle
+-baseTheme
+-styleTemplate
+        
+MAIN(`openGarage`)
+-serverCore
+-serverBot [-plural]
 -cryptoVault
 -constentStore
--contentFetch
 
+-cookieMonster: [-plural]
+DISCORD(`guiuld)
+-clubGuild
+-discrodBot
+-contentFetch
+-creativesSupport
+
+[ACTUALLY MAKING THE CONTENT OF BRANDYPHILIAS.CLUB]
+
+    
 
 
 
