@@ -17,7 +17,7 @@ JAVASCRIPT=ES9 +typesript
  -node.js
  -gtag.js
  -discord.js
- -sitemap.js
+ -sitemap.js https://github.com/ekalinin/sitemap.js/blob/master/api.md
 
 -html(GET.boilerplate).html5
 -FORMS
