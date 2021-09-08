@@ -1,10 +1,10 @@
 const https = require('https');
-const fs =require(`fs`);
+const fs =require('fs');
 
 //makes http into https
 const options = {
-    key: fs.readFileSync(`key.pem`),
-    cert: fs.readFilesSync(`cert.pem`)
+    key: fs.filehandle.sync('key.pem'),
+    cert: fs.filehandle.sync('cert.pem')
     // fs.readFile VS fs.readFileSync === security VS serverload
 };
 https.createServer(options, function (rq, res) {
