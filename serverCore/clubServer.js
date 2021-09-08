@@ -1,5 +1,18 @@
 const https = require('https');
+const fs =require(`fs`);
 
+//makes http into https
+const options = {
+    key: fs.readFileSync(`key.pem`),
+    cert: fs.readFilesSync(`cert.pem`)
+    // fs.readFile VS fs.readFileSync === security VS serverload
+};
+https.createServer(options, function (rq, res) {
+    res.writeHead(200); //ie 300 404
+    res.end("Hello WorldJ from my js.node!");
+
+}).listen(65536); //wat? LOL! (Math.random()*max) let max = 65536
+/*
 let handleRequest = (request, response) => {
     response.writeHead(200, {
         'Content-type': 'text-plain'
@@ -9,11 +22,4 @@ let handleRequest = (request, response) => {
 };
 
 http.createServer(handleRequest).listen(65501);
-
-//server ready send notification to discord server
-//POST/channels/{channel.id}/webhooks
-///{
-///  "type": 1,
-///  "id": "ItsOver1€",
-///    "avatar":"https://discordapp.com/api/webhooks/856065916629942272/9cGk-A18YsG2u-R2LRCD4sHE6K-OsWJ5Jb59vhPbw_pxXwcXbEa44nAdd6tWT1ceZiFR0"
-///}
+*/
