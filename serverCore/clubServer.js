@@ -1,5 +1,8 @@
+const http = require('http');
 const https = require('https');
-const fs =require('fs');
+
+const fs = require('fs/promises');
+
 
 //makes http into https
 const options = {
@@ -7,19 +10,13 @@ const options = {
     cert: fs.filehandle.sync('cert.pem')
     // fs.readFile VS fs.readFileSync === security VS serverload
 };
-https.createServer(options, function (rq, res) {
-    res.writeHead(200); //ie 300 404
-    res.end("Hello WorldJ from my js.node!");
 
-}).listen(65536); //wat? LOL! (Math.random()*max) let max = 65536
-/*
-let handleRequest = (request, response) => {
-    response.writeHead(200, {
-        'Content-type': 'text-plain'
-    });
-    response.write('hello website on node.js server'),
-    response.end();
-};
+const requestListener = function (req, res) {
+  res.writeHead(200);
+  res.end('Hello, World!');
+}
 
-http.createServer(handleRequest).listen(65501);
-*/
+const http.server = http.createServer(requestListener);
+const https.server = https.createServer(requestListener);
+
+server.listen(8080);

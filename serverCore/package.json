@@ -1,0 +1,11 @@
+{
+  "name": "clubserver.js",
+  "version": "0.0.1",
+  "description": "brandyphilias.club node.js server",
+  "main": "clubServer.js",
+  "scripts": {
+    "test": "res.end('Hello, World!');"
+  },
+  "author": "melkanea",
+  "license": "IPAG pending"
+}
